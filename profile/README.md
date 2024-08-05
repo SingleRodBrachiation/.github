@@ -2,6 +2,9 @@
 
 An organization for managing source code for the joint research project on single-rod brachiation between the Czech Technical University, Faculty of Mechanical Engineering, Dept. of Instrumentation and Control Engineering and Tokyo University of Agriculture and Technology, Dept. of Mechanical Systems Engineering.
 
-Currently the organization contains code for simulating the single-rod robot in julia as well as the Arduino control loop program (C++) who's first versions were written by Hijiri Akahane but was later heavily modified and extended by Juraj Lieskovský.
+Currently the organization contains the Arduino control loop program (C++) who's first versions were written by Hijiri Akahane but was later heavily modified and extended by Juraj Lieskovský.
+The program is accompanied by a smaller utility program for setting the appropriate parameters for ensuring that the prescribed torque is aimed for by the controller.
 As a side note there also exists a short [script for parsing Arduino serial output](https://gist.github.com/lieskjur/6f5b448fc157e70ad28dbcabc78c7a46) managed as a gist.
+An additional repository then contains code for simulating the single-rod robot in julia and creating plots for the journal paper (maybe these two could be separated).
+
 I would suggest we manage all relevant code that would/does benefit from source control here, adding additional organization owners as we see fit.
