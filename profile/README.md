@@ -8,3 +8,26 @@ As a side note there also exists a short [script for parsing Arduino serial outp
 An additional repository then contains code for simulating the single-rod robot in julia and creating plots for the journal paper (maybe these two could be separated).
 
 I would suggest we manage all relevant code that would/does benefit from source control here, adding additional organization owners as we see fit.
+
+# Electrical design
+
+Motor driver - [EPOS2](https://www.maxongroup.com/maxon/view/product/control/Positionierung/367676)
+Control board - [NUCLOE-F103RB](https://www.st.com/en/evaluation-tools/nucleo-f103rb.html)
+Encoder counter - [MikroE Counter Click](https://www.mikroe.com/counter-click?srsltid=AfmBOooAc547Hi3YX7WqDLprGw8HHImTrGliJFiZXVDFnyCqJhTguAVZ)
+IMU - [Adafruit BNO055](https://www.adafruit.com/product/2472)
+
+| Counter | STM32 |
+| --- | --- |
+| 3V3 | 3V3 |
+| GND | GND |
+| SDI | D11/MOSI |
+| SDO | D12/MISO |
+| SCK | D13/SCK |
+| CS | D10/CS |
+
+| IMU | STM32 |
+| --- | --- |
+| 3V3 | 3V3 |
+| GND | GND |
+| SDA | D14/SDA |
+| SCL | D15/SCL |
