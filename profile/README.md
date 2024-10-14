@@ -11,10 +11,13 @@ I would suggest we manage all relevant code that would/does benefit from source 
 
 # Electrical design
 
-Motor driver - [EPOS2](https://www.maxongroup.com/maxon/view/product/control/Positionierung/367676)
-Control board - [NUCLOE-F103RB](https://www.st.com/en/evaluation-tools/nucleo-f103rb.html)
-Encoder counter - [MikroE Counter Click](https://www.mikroe.com/counter-click?srsltid=AfmBOooAc547Hi3YX7WqDLprGw8HHImTrGliJFiZXVDFnyCqJhTguAVZ)
-IMU - [Adafruit BNO055](https://www.adafruit.com/product/2472)
+Motor driver - [EPOS2](https://www.maxongroup.com/maxon/view/product/control/Positionierung/367676) 
+
+Control board - [NUCLOE-F103RB](https://www.st.com/en/evaluation-tools/nucleo-f103rb.html) 
+
+Encoder counter - [MikroE Counter Click](https://www.mikroe.com/counter-click?srsltid=AfmBOooAc547Hi3YX7WqDLprGw8HHImTrGliJFiZXVDFnyCqJhTguAVZ) 
+
+IMU - [Adafruit BNO055](https://www.adafruit.com/product/2472) 
 
 | Counter | STM32 |
 | --- | --- |
